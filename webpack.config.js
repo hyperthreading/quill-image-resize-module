@@ -18,7 +18,7 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         "presets": [["es2015", { "modules": false }]],
-                        "plugins": ["babel-plugin-transform-class-properties"]
+                        "plugins": ["transform-class-properties"]
                     }
                 }]
             },
